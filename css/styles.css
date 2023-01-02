@@ -34,7 +34,7 @@ ul {
 }
 .logo {
   color: var(--accent-active-color);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -43,6 +43,7 @@ ul {
 
 .link {
   color: var(--title-text-color);
+  line-height: 1.1;
 }
 .link.current {
   color: var(--accent-color);
@@ -54,6 +55,7 @@ ul {
 
 .mail {
   color: var(--accent-color);
+  line-height: 1.1;
 }
 .mail:hover,
 .mail:focus {
@@ -61,6 +63,7 @@ ul {
 }
 .tel {
   color: var(--tel-number-color);
+  line-height: 1.1;
 }
 .tel:hover,
 .tel:focus {
@@ -131,7 +134,7 @@ ul {
   font-style: normal;
   color: var(--secondary-text-color);
   }
- .contacts{
+ .footer-contacts{
   line-height: 1.7;
   font-style: normal;
   color: var(--contacts-tekst-footer);
